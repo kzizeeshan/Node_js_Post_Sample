@@ -20,7 +20,7 @@ app.use(express.static('public'));
 app.get('/',(req, res) => {
   //render index.hbs file
   res.render('index',{
-    name : "M Fikri"
+    name : "MY Name"
   });
 });
  
